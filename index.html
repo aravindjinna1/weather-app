@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Kode+Mono:wght@400..700&family=Oswald:wght@200..700&family=Oxanium:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+ 
+</head>
+<body>
+ 
+  <!-- autoplay muted loop style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1; -->
+
+        <video autoplay muted loop style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+            <source src="https://cdn.pixabay.com/video/2021/10/10/91562-629172467_large.mp4" type="video/mp4">
+        </video>
+
+        <!-- <div class="card"> -->
+            <!-- Your content here -->
+        <!-- </div> -->
+
+    
+    <div class="card">
+
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button><img src="images/search.png" ></button>
+
+              </div>
+        
+
+    <div class="error">
+        <p>Invalid city name</p>
+    </div>
+    
+        <div class="weather">
+
+            <img src="images/rain.png" class="weather-icon">
+            <h1 class="temp">27°F</h1>
+            <h2 class="city">Hyderabad</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png">
+               
+                      <h3 class="humidity">50%</h3><br>
+                      <p class="para">Humidity</p>
+                </div>
+                
+                <div class="col">
+                 <img src="images/wind.png" >
+                  <h4 class="wind">15km/h</h4><br>
+                  <p class="para"> wind speed</p><br>
+               </div>
+            </div>
+
+        </div>
+
+   </div>
+</div>
+
+   <script src="./script.js"></script>
+</body>
+</html>

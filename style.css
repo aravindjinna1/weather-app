@@ -1,0 +1,145 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #272525;
+    /* background-image: url('https://cdn.pixabay.com/video/2021/10/10/91562-629172467_large.mp4'); Replace with the path to your image */
+    /* background-size: cover; */
+     /* This will make the background image cover the entire body */
+    /* background-position: center; */
+     /* This will center the background image */
+    /* background-repeat: no-repeat; */
+    /* height: 100vh; */
+    /* https://wallpapers.com/images/hd/interactive-aurora-forestscape-o3ri9r4dxvj9vgnc.jpg */
+}  
+   
+
+.card{
+    width: 90%;
+    color:#fff;
+    max-width: 465px;
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);  */
+    background: rgba(127, 78, 78, 0.2); backdrop-filter: blur(2px);
+    margin:100px auto 0;
+    border-radius:20px;
+    padding:40px 35px;
+    text-align:center;
+    border: solid rgb(9, 9, 9);
+    
+   
+}
+
+.search{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.search input{
+    border: 0;
+    outline:0;
+    background: #ebfffc;
+    color: #555;
+    padding:10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex:1;
+    margin-right:16px;
+    font-size:18px;
+
+}
+.search button{
+    border:0;
+    outline:0;
+    background:#ebfffc;
+    border-radius:50%;
+    height:60px;
+    width:60px;
+    cursor:pointer;
+}
+.search button img{
+    width:16px;
+}
+.weather-icon{
+    width:170px;
+    margin-top:30px;
+
+}
+.weather h1{
+    font-size: 80px;
+    font-weight:500;
+}
+.weather h2{
+font-size:45px;
+font-weight:400;
+margin-top:-10px;
+
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top:50px;
+   
+}
+.col{
+    display: flex;
+    align-items: center;
+    /* text-align: left; */
+   
+
+}
+.col img{
+    width:40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    word-spacing: 40px;
+}
+.col h3{
+    font-size: 25px;
+    position: fixed;
+    bottom:+59px;
+    left: 105px;
+    font-family:"Agdasima", serif;
+
+}
+.col h4{
+    font-size: 25px;
+    position: absolute;
+    bottom:59px;
+    left: 318px;
+    font-family:"Agdasima", serif;
+}
+.para{
+  position: relative;
+  bottom: -8px;
+  font-weight: -10px;
+  font-family: "Bona Nova SC", serif;
+
+
+
+  
+}
+.city, .temp{
+    /* font-family: "Rubik", sans-serif; */
+    font-family: "Bona Nova SC", serif;
+
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align:left;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #272525;
+    margin-top: 10px;
+    display: none;
+}
